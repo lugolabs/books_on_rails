@@ -1,3 +1,5 @@
+# 1. The App
+
 In this series, called *Building a Ruby on Rails app*, we'll create a web app that lists books about Ruby on Rails. It should also record the sales rank of the book daily (source from Amazon.com), and show the ranking movement. You can see the finished live site at [Books on Rails website](http://lugolabs.com/booksonrails).
 
 Our web app is called *Books on Rails*, so let's create a Rails app with that name:
