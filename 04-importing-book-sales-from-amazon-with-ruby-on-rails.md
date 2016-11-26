@@ -1,6 +1,6 @@
-# Importing book sales from Amazon with Ruby on Rails
+# 4. Importing book sales from Amazon with Ruby on Rails
 
-In [part 3](/lugoland/articles/77-building-a-ruby-on-rails-app-part-3-importing-book-details-from-amazon) we filled our database with a dozen of Ruby on Rails books with details taken from Amazon Web Services (AWS). We also fetched the book image and stored it into our own servers. In this part, we'll go back to AWS and fetch the book sales.
+In [part 3](https://rtsinani.gitbooks.io/books-on-rails/content/03-importing-book-details-from-amazon.html) we filled our database with a dozen of Ruby on Rails books with details taken from Amazon Web Services (AWS). We also fetched the book image and stored it into our own servers. In this part, we'll go back to AWS and fetch the book sales.
 
 Book Sale Model
 ---
@@ -39,7 +39,7 @@ private
   end
 ```
 
-First we use our `fetch` method we created on [the previous post](/lugoland/articles/77-building-a-ruby-on-rails-app-part-3-importing-book-details-from-amazon) to grab the book details by the book's unique identifier (ASIN). Then (in the `save_sale` method) we check that we don't have a ranking for the book on the same day. If we don't, we grab the `SalesRank` item attribute from AWS and create a new sale record for the book in the data store. At the end, we update the sales movement of the book. For that we create an instance method on the `Book` model:
+First we use our `fetch` method we created on [the previous part](https://rtsinani.gitbooks.io/books-on-rails/content/03-importing-book-details-from-amazon.html) to grab the book details by the book's unique identifier (ASIN). Then (in the `save_sale` method) we check that we don't have a ranking for the book on the same day. If we don't, we grab the `SalesRank` item attribute from AWS and create a new sale record for the book in the data store. At the end, we update the sales movement of the book. For that we create an instance method on the `Book` model:
 
 ```ruby
 def update_sales_rank_movement
@@ -81,6 +81,6 @@ No much mystery here, we navigate through the books and call the `AmazonProxy` m
 Conclusion
 --
 
-In this part of *How to create a Rails app* series, we imported the daily book sales from Amazon and updated our book records. This allows us to show the sales movements daily. In the next part, we'll build the page that shows the books and their sales ranking.
+In this part of *How to create a Rails app* series, we imported the daily book sales from Amazon and updated our book records. This allows us to show the sales movements daily. In the [next part](https://rtsinani.gitbooks.io/books-on-rails/content/05-the-front-end.html), we'll build the page that shows the books and their sales ranking.
 
 Check [Books on Rails](/booksonrails) for the live example.

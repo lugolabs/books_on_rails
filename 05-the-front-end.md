@@ -119,7 +119,7 @@ module BooksHelper
 end
 ```
 
-This method is simple, it looks at the `sales_rank_movement` we added to the book in the [previous part](/lugoland/articles/78-part-4-importing-book-sales-from-amazon-with-ruby-on-rails), and generates the corresponding markup.
+This method is simple, it looks at the `sales_rank_movement` we added to the book in the [previous part](https://rtsinani.gitbooks.io/books-on-rails/content/04-importing-book-sales-from-amazon-with-ruby-on-rails.html), and generates the corresponding markup.
 
 Let's now style the arrow and other parts of the page.
 

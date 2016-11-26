@@ -1,6 +1,6 @@
 # Styling the layout
 
-In the [first part](http://lugolabs.com/lugoland/articles/75-building-a-ruby-on-rails-app-part-1-the-app) of our *Build a web app with Ruby on Rails* series we created a layout view, as well as a header and footer. In this post we will add a paint of style to them.
+In the [first part](https://rtsinani.gitbooks.io/books-on-rails/content/01-creating-the-app.html) of our *Build a web app with Ruby on Rails* series we created a layout view, as well as a header and footer. In this post we will add a paint of style to them.
 
 Layout
 --
@@ -16,7 +16,7 @@ It's important we keep our stylesheets well organized in separate files, based o
 */
 ```
 
-I still use Meyer's `reset.css` file - with some tweaks - that you can find aat [github repo](). It removes margins and paddings, resets new HTML5 elements in older browsers, etc.
+I still use Meyer's `reset.css` file - with some tweaks - that you can find at [his website](http://meyerweb.com/eric/tools/css/reset/). It removes margins and paddings, resets new HTML5 elements in older browsers, etc.
 
 The *layout.css* file is occupied with the high level elements or classes used accross the application:
 
@@ -148,7 +148,7 @@ Conclusion
 
 In this post we added some needed styles to our *Books on Rails* app. We accomplished that by creating separate stylesheets for sepearate concerns, e.g. layout, header, footer, and logo.
 
-In the [next post](/lugoland/articles/77-building-a-ruby-on-rails-app-part-3-importing-book-details-from-amazon) we will connect to the Amazon API to get the details about our books.
+In the [next post](https://rtsinani.gitbooks.io/books-on-rails/content/03-importing-book-details-from-amazon.html) we will connect to the Amazon API to get the details about our books.
 
 You can check out the previous posts in this series in:
 

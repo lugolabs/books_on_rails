@@ -173,6 +173,6 @@ Conclusion
 
 In this tutorial we specified the requirements of our simple web app, we created the app, generated the first model, controller and views. At the end we added a simple header and footer with a logo.
 
-In the [second part](/lugoland/articles/76-building-a-ruby-on-rails-app-part-2-styling-the-layout) of this series will add a paint of style to our views.
+In the [second part](https://rtsinani.gitbooks.io/books-on-rails/content/02-styling-the-layout.html) of this series will add a paint of style to our views.
 
 * [Books on Rails](http://lugolabs.com/booksonrails) live example

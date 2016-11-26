@@ -1,6 +1,6 @@
 # 3. Importing book details from Amazon
 
-In [part 2](/articles/76-building-a-ruby-on-rails-app-part-2-styling-the-layout) we added some necessary stylesheets to our website. In part 3 we're going to the back end again to fill our database with books. For this, I went to the [Amazon website](http://www.amazon.com) and searched for Ruby on Rails books. I extracted a dozen of ASINs (the Amazon book identifier) to use as our sample dataset.
+In [part 2](https://rtsinani.gitbooks.io/books-on-rails/content/02-styling-the-layout.html) we added some necessary stylesheets to our website. In part 3 we're going to the back end again to fill our database with books. For this, I went to the [Amazon website](http://www.amazon.com) and searched for Ruby on Rails books. I extracted a dozen of ASINs (the Amazon book identifier) to use as our sample dataset.
 
 Rake
 --
@@ -184,10 +184,6 @@ we can see how the book details and image are being saved into our database and 
 Conclusion
 --
 
-In this part of *How to create a Rails app* series, we imported book details from AWS. In the next part we'll import the book sales from Amazon.
+In this part of *How to create a Rails app* series, we imported book details from AWS. In the [next part](https://rtsinani.gitbooks.io/books-on-rails/content/04-importing-book-sales-from-amazon-with-ruby-on-rails.html) we'll import the book sales from Amazon.
 
-You can check out the previous posts in this series below:
-
-* [Part 1: Create the app](/lugoland/articles/75-building-a-ruby-on-rails-app-part-1-the-app)
-* [Part 2: Styling the layout](/lugoland/articles/76-building-a-ruby-on-rails-app-part-2-styling-the-layout)
 * [Books on Rails](/booksonrails) live example
