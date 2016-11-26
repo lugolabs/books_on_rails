@@ -1,4 +1,4 @@
-# Importing book details from Amazon
+# 3. Importing book details from Amazon
 
 In [part 2](/articles/76-building-a-ruby-on-rails-app-part-2-styling-the-layout) we added some necessary stylesheets to our website. In part 3 we're going to the back end again to fill our database with books. For this, I went to the [Amazon website](http://www.amazon.com) and searched for Ruby on Rails books. I extracted a dozen of ASINs (the Amazon book identifier) to use as our sample dataset.
 
