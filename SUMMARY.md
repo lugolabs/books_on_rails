@@ -4,4 +4,4 @@
 
 ##Table of Contents
 
-[1. The App](01_creating_the_app)
+* [1. The App](01_creating_the_app)
